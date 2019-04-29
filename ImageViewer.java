@@ -255,7 +255,11 @@ public class ImageViewer
         filterList.add(new GrayScaleFilter("Grayscale"));
         filterList.add(new EdgeFilter("Edge Detection"));
         filterList.add(new FishEyeFilter("Fish Eye"));
-       
+        filterList.add(new RedFilter("Red Filter"));
+        filterList.add(new BlueFilter("Blue Filter"));
+        filterList.add(new GreenFilter("Green Filter"));
+        filterList.add(new WarholFilter("Warhaol"));
+               
         return filterList;
     }
     
