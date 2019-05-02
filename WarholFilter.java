@@ -1,17 +1,18 @@
 import java.awt.Color;
 /**
- * Write a description of class Warhol here.
+ * Write a description of class WarholFilter here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Warhol extends Filter
+public class WarholFilter extends Filter
 {
+    // instance variables - replace the example below with your own
    private OFImage original;
    private int width;
    private int height;
     
-   public Warhol(String name)
+   public WarholFilter(String name)
    {
        super(name);
    }
